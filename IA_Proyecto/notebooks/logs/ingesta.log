@@ -1,0 +1,11 @@
+2026-06-20 01:57:36,085 - INFO - Archivo copiado correctamente
+2026-06-20 01:58:10,039 - INFO - P3:Titulos cambiados a snake_case
+2026-06-20 01:58:10,040 - INFO - P3.1: Columna customerID eliminada para anonimización
+2026-06-20 01:58:26,123 - INFO - P3.4: Mapeo de atributos completado
+2026-06-20 01:58:31,899 - INFO - P4:Dataset limpio y anonimizado guardado correctamente
+2026-06-20 01:58:46,931 - INFO - P4: Dataset limpio y anonimizado guardado correctamente
+2026-06-20 02:13:20,595 - INFO - Archivo copiado correctamente
+2026-06-20 02:22:21,091 - INFO - P3:Titulos cambiados a snake_case
+2026-06-20 02:22:21,092 - INFO - P3.1: Columna customerID eliminada para anonimización
+2026-06-20 02:24:54,602 - INFO - P3.4: Mapeo de atributos completado
+2026-06-20 02:25:09,554 - INFO - P4:Dataset limpio y anonimizado guardado correctamente

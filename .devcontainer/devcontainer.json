@@ -1,0 +1,13 @@
+{
+  "name": "Entorno de Arquitectura TI",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python", 
+        "ritwickdey.LiveServer"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install pandas"
+}
