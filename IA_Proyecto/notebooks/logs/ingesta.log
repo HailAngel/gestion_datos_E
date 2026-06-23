@@ -23,3 +23,8 @@
 2026-06-23 13:34:33,634 - INFO - P3.1: Columna customerID eliminada para anonimización
 2026-06-23 13:34:51,814 - INFO - P3.4: Mapeo de atributos completado
 2026-06-23 13:35:01,931 - INFO - P4:Dataset limpio y anonimizado guardado correctamente
+2026-06-23 13:45:48,389 - INFO - Archivo copiado correctamente
+2026-06-23 13:46:55,839 - INFO - P3.1:Titulos cambiados a snake_case
+2026-06-23 13:46:55,839 - INFO - P3.1: Columna customerID eliminada para anonimización
+2026-06-23 13:46:55,858 - INFO - P3.4: Mapeo de atributos completado
+2026-06-23 13:47:18,088 - INFO - P4:Dataset limpio y anonimizado guardado correctamente
