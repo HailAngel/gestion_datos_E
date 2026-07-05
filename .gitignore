@@ -50,5 +50,8 @@ notebooks/.env
 
 # Python - Archivos compilados y caché
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
+IA_Proyecto/data/raw/*
+IA_Proyecto/data/processed/*

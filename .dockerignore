@@ -1,0 +1,6 @@
+**/__pycache__
+**/.ipynb_checkpoints
+IA_Proyecto/data/processed/*
+IA_Proyecto/data/raw/*
+IA_Proyecto/notebooks/logs/*
+.git

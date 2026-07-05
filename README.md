@@ -31,11 +31,44 @@ IA_Proyecto/
 * **Scikit-Learn** (Particionado, Escalado, Modelado y Métricas)
 * **Matplotlib** (Visualización de matrices de confusión)
 
-
+## Requerimientos
+* pandas>=2.0.0
+* numpy>=1.24.0
+* matplotlib>=3.7.0
+* seaborn>=0.12.0
+* scikit-learn>=1.3.0
+* jupyterlab
 
 ## Cómo Ejecutar el Proyecto
 
 1. Clona este repositorio
    ```bash
-   git clone [https://github.com/HailAngel/gestion_datos_3.git](https://github.com/HailAngel/gestion_datos_3.git)
-2. Corre en orden numerico los archivos ipynb
+   git clone [https://github.com/HailAngel/gestion_datos_3.git](https://github.com/HailAngel/gestion_datos_E.git)
+
+## 2. Modos de Ejecución
+
+Elige el método que mejor se adapte a tu entorno de trabajo:
+
+### Opción A: Usando GitHub Codespaces
+
+1. Abre el repositorio en un Codespace.
+2. Al iniciar, Codespaces detectará el archivo, construirá el contenedor e instalará las extensiones automáticamente.
+3. **Para correr el pipeline:** Abre una terminal integrada en VS Code y ejecuta directamente:
+   python IA_Proyecto/notebooks/pipeline.py
+
+### Opción B: Usando Docker Local (Tradicional)
+Si prefieres clonar el proyecto en tu máquina local y manejar el ciclo de vida manualmente desde tu terminal, usa estos comandos desde la raíz principal (gestion_datos_3):
+
+1. Construir la Imagen
+
+docker build -t telco-pipeline .
+
+2. Ejecutar el Pipeline de Limpieza automáticamente
+Procesa y valida los datos, exportando los archivos .csv finales directamente a tu carpeta local de forma sincronizada:
+
+docker run --rm -v "${PWD}/IA_Proyecto:/app/IA_Proyecto" telco-pipeline
+
+3. Levantar Jupyter Lab para el Entrenamiento
+Levanta el servidor interactivo de Jupyter para que puedas entrenar el modelos desde el navegador:
+
+docker run --rm -it -p 8888:8888 -v "${PWD}/IA_Proyecto:/app/IA_Proyecto" telco-pipeline jupyter lab --ip=0.0.0.0 --allow-root --no-browser

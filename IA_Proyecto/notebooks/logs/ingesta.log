@@ -28,3 +28,14 @@
 2026-06-23 13:46:55,839 - INFO - P3.1: Columna customerID eliminada para anonimización
 2026-06-23 13:46:55,858 - INFO - P3.4: Mapeo de atributos completado
 2026-06-23 13:47:18,088 - INFO - P4:Dataset limpio y anonimizado guardado correctamente
+2026-07-05 02:00:07,844 - INFO - Archivo copiado correctamente
+2026-07-05 02:00:07,882 - INFO - Iniciando fase de transformación de datos...
+2026-07-05 02:00:08,038 - INFO - Limpieza e imputación cruzada completada
+2026-07-05 02:00:08,038 - INFO - 1: Titulos cambiados a snake_case
+2026-07-05 02:00:08,041 - INFO - 2: Columna customer_id eliminada para anonimización
+2026-07-05 02:00:08,071 - INFO - 3: Escalado numérico (StandardScaler) aplicado a variables continuas
+2026-07-05 02:00:08,113 - INFO - 4: Columnas de baja cardinalidad detectadas: ['gender', 'partner', 'dependents', 'phone_service', 'multiple_lines', 'internet_service', 'online_security', 'online_backup', 'device_protection', 'tech_support', 'streaming_tv', 'streaming_movies', 'contract', 'paperless_billing', 'churn']
+2026-07-05 02:00:08,127 - INFO - 6: Mapeo y codificación masiva completada
+2026-07-05 02:00:08,132 - INFO - Validación exitosa para DF_Logistic_Regression
+2026-07-05 02:00:08,139 - INFO - Validación exitosa para DF_Random_Forest
+2026-07-05 02:00:08,185 - INFO - 8: Datasets guardados con éxito en la ruta especificada
