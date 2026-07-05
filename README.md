@@ -12,8 +12,8 @@ El proyecto sigue una organizacion estandar para proyectos de Ciencia de Datos:
 IA_Proyecto/
 ├── data/
 │   ├── raw/          # Contiene el dataset original sin modificaciones
-│   └── processed/    # Archivos generados (Telco_clean.csv, Telco_limpio.csv, Telco_validate.csv y Telco_validado.csv) 
-└──  notebooks/       # Flujo de experimentacion numerado paso a paso
+│   └── processed/    # Archivos generados (Telco_clean.csv y Telco_limpio.csv) 
+└──  notebooks/       # Pipeline de datos y entrenamiento de modelos
      └──logs/         # Registros de ejecucion del sistema
 ```
 # COMPARACIÓN GLOBAL DE ALGORITMOS
